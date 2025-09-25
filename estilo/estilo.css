@@ -1,0 +1,39 @@
+
+nav {
+    text-align: center;
+}
+
+.cabecera {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.contenedor-temas {
+    padding: 8px 10px;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.tema{
+    margin:4px;
+}
+
+
+#noti li:nth-of-type(1):hover{
+    color:blue;
+}
+
+#noti li:nth-of-type(2):hover{
+    color:green;
+    font-size: 2em;
+}
+
+
+.imagen {
+  max-width: 300px;
+  height: auto;
+}
